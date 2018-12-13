@@ -23,7 +23,7 @@ https://www.cncf.io/phippy/
 
 ## 翻訳するファイル
 
-[The Illustrated Childrens Guide to Kubernetes](https://github.com/sasukeh/Phippy-books-i18n-ja_jp/blob/master/The%20Illustrated%20Childrens%20Guide%20to%20Kubernetes/main_ja.md)
+[The Illustrated Childrens Guide to Kubernetes(日本語)](https://github.com/sasukeh/Phippy-books-i18n-ja_jp/blob/master/The%20Illustrated%20Childrens%20Guide%20to%20Kubernetes/main_ja.md)
 
 [Phippy Goes To The Zoo(日本語)](https://github.com/sasukeh/Phippy-books-i18n-ja_jp/blob/master/Phippy%20Goes%20To%20The%20Zoo%20Folder/main_ja.md)
 
