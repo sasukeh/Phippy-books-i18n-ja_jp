@@ -13,7 +13,13 @@ CC-BY4.0で公開されたということなので、CC-BY4.0を継承し、日�
 3. どのページを担当するかをContributorに記載し、宣言する（pull requestその１）
 4. 翻訳を開始（ページごと分けてます）
 5. 翻訳を終えたらプルリクを送ってください（pull requestその2）
-6. しばらく[@sasukeh](sasukeh)がマージします
+6. しばらく[@sasukeh](https://github.com/sasukeh)がマージします
+
+
+## 翻訳するファイル
+
+[Phippy Goes To The Zoo(日本語)](https://github.com/sasukeh/Phippy-books-i18n-ja_jp/blob/master/Phippy%20Goes%20To%20The%20Zoo%20Folder/main_ja.md)
+
 
 ## Code of Conduct (行動規範)
 [CodeOfConduct](CodeOfConduct.md)もしくは[CodeOfConduct（日本語）](CodeOfConduct_ja-jp.md)を参考にしてください。
