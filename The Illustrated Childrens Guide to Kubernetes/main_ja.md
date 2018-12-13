@@ -85,6 +85,7 @@ A namespace functions as a grouping mechanism inside of Kubernetes. Services, po
 Life was good aboard Captain Kube’s boat. Together with her new friends, Phippy sailed the seas. She had many grand adventures, but most importantly, Phippy had found her home.
 
 And so Phippy lived happily ever after.
+その後、Phippyは幸せに暮らしましたとさ。
 
 ## page25 Blank
 
