@@ -1,0 +1,52 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:KlinicSlab-Book
+FamilyName:Klinic Slab
+StyleName:Book
+MenuName:Klinic Slab Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Klinic Slab Book Regular
+WritingScript:Roman
+OutlineFileName:/Users/admin/OneDrive - Microsoft/The Illustrated Guide to Kubernetes MSFT Edition/The Illustrated Children's Guide to Kubernetes - CNCF/The Illustrated Childrens Guide to Kubernetes Book Files - Sept 2018 - CNCF Folder/Document fonts/klinicslabbook-webfont.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:78120
+FileModTime:524618192
+NameArray:0,Win,1,Klinic Slab Book
+NameArray:0,Win,16,Klinic Slab
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/admin/OneDrive - Microsoft/The Illustrated Guide to Kubernetes MSFT Edition/The Illustrated Children's Guide to Kubernetes - CNCF/The Illustrated Childrens Guide to Kubernetes Book Files - Sept 2018 - CNCF Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:565344490
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
