@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 ※英語の箇所は未翻訳箇所です。
-
-=======
 
->>>>>>> 44e5dede2505e296f6c3c940c7207cbb4495d00b
 ## page1 Blank
 
 ## page2 Blank
