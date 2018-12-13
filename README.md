@@ -17,7 +17,7 @@ https://www.cncf.io/phippy/
 1. github上でForkする
 2. 自分用にBranchを切る
 3. どのページを担当するかを[Contributors](Contributors)に記載し、宣言する（pull requestその１）
-4. 翻訳を開始（ページごと分けてます）
+4. 翻訳を開始（タイトルごとに分けてます/翻訳するファイルを参照）
 5. 翻訳を終えたらプルリクを送ってください（pull requestその2）
 6. しばらく[@sasukeh](https://github.com/sasukeh)がマージします
 
