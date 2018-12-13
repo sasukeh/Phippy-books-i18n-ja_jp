@@ -8,10 +8,11 @@ CC-BY4.0で公開されたということなので、CC-BY4.0を継承し、日�
 https://www.cncf.io/phippy/
 
 
-## How to contribute to this project? - どのようにこのプロジェクトに貢献するか？-
-まず、行動規範に従ってください。行動規範は、このプロジェクトの目的を達成するために最も大切なものになります。
+## How to contribute to this project? - どのようにこのプロジェクトに貢献するか？　--
+まず、行動規範に従ってください。
+行動規範は、このプロジェクトの目的を達成するために最も大切なものになります。
 
-手順
+### 手順
 1. github上でForkする
 2. 自分用にBranchを切る
 3. どのページを担当するかをContributorに記載し、宣言する（pull requestその１）
