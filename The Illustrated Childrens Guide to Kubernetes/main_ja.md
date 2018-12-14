@@ -65,7 +65,9 @@ Led by Google, the Kubernetes project focuses on building a robust platform for 
 “Nice to make your acquaintance,” said the Captain as he gave her a name tag. 
 
 ## page13
-Kubernetes uses labels as “nametags” to identify things. Labels are open-ended. 
+Kubernetes uses labels as “nametags” to identify things. 
+
+Labels are open-ended. 
 
 You can use them to indicate roles, stability, or other important attributes.
 
