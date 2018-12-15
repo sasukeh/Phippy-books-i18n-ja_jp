@@ -5,41 +5,39 @@
 ## page2 Blank
 
 ## page3
-Dedicated to all the parents who try to explain software engineering to their children.
+自分の子供たちにソフトウェアエンジニアを説明しようとしている、全ての親たちに捧げます。
 
 ## page4 CNCF Logo
 
 ## page5 Title
 
-## page6 
-Once upon a time, there was an app named Phippy. 
+## page6
+むかしむかし、あるところに、フィッピーというアプリケーションがいました。
 
-She was a simple app written in PHP and had just one page. 
+彼女はPHPで書かれたシンプルなアプリケーションで、1ページしかありませんでした。
 
-She lived on a hosting provider and she shared her environment with scary other apps she didn’t know, 
-and didn’t care to associate with. She wished she had her own environment; 
+フィッピーはホスティングプロバイダに住んでいて、全く知らない上に特に関わりもないような、怖い怖いほかのアプリたちと自分の環境を共有していました。フィッピーは、自分だけの環境がほしいと思っていました。
 
-just her and a webserver she could call home. 
-
+ただ、彼女自身と、彼女が家と呼べるような1つのウェブサーバーさえあればよかったのです。
 
 ## page7
-An app has an environment that it relies upon to run. 
+アプリケーションは、動作するために依存する環境を持ちます。
 
-For a PHP app, that environment might include a web server, a readable file system, and the PHP engine itself.
+PHPアプリケーションにおいては、その環境にはWebサーバーと、読み取り可能なファイルシステムと、PHPエンジン自体が含まれているかもしれません。(TODO: mightの文脈的意味の確認)
 
 ## page8
-One day, a kindly whale came along. 
+ある日、優しいクジラがやってきました。
 
-He suggested that little Phippy might be happier living in a container and so she moved. 
+彼は、フィッピーがもしかしたらコンテナの中に住んだら幸せになれるんじゃないかと提案し、フィッピーは言われた通りに引っ越しました。
 
-The container was nice, but… it was a little bit like having a fancy living room floating in the middle of the ocean.
+コンテナは快適です、でも…少しだけ素敵なリビングがあって、それが海の真ん中にぽつんと浮かんでいるような感じでした。
 
 ## page9
-A container provides an isolated context in which an app, together with its environment, can run. 
+コンテナはアプリとその環境が一緒に動くような独立したコンテキストを提供します。(TODO: コンテキストをもっといい感じに訳したい)
 
-But isolated containers often need to be managed and connected to the external world. 
+でも、独立したコンテナは、管理される必要があったり、外部の世界に接続される必要があったりします。
 
-Shared file systems, networking, scheduling, load balancing, and distribution are all challenges.
+ファイルシステムの共有、ネットワーク、スケジューリング、負荷分散、そして分散処理はすべてチャレンジなのです。(TODO: distributionは分散・配布どっちだろうか確認)
 
 ## page10
 The whale shrugged his shoulders. 
