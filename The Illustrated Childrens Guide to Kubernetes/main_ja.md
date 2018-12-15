@@ -5,6 +5,8 @@
 ## page2 Blank
 
 ## page3
+---
+![page1](Links/page1.png)
 自分の子供たちにソフトウェアエンジニアを説明しようとしている、全ての親たちに捧げます。
 
 ## page4 CNCF Logo
@@ -12,6 +14,8 @@
 ## page5 Title
 
 ## page6
+---
+![page3](Links/page3.png)
 むかしむかし、あるところに、フィッピーというアプリケーションがいました。
 
 彼女はPHPで書かれたシンプルなアプリケーションで、1ページしかありませんでした。
@@ -21,11 +25,15 @@
 ただ、彼女自身と、彼女が家と呼べるような1つのウェブサーバーさえあればよかったのです。
 
 ## page7
+---
+![diagram2](Links/diagram2.png)
 アプリケーションは、動作するために依存する環境を持ちます。
 
 PHPアプリケーションにおいては、その環境にはWebサーバーと、読み取り可能なファイルシステムと、PHPエンジン自体が含まれているかもしれません。(TODO: mightの文脈的意味の確認)
 
 ## page8
+---
+![page4](Links/page4.png)
 ある日、優しいクジラがやってきました。
 
 彼は、フィッピーがもしかしたらコンテナの中に住んだら幸せになれるんじゃないかと提案し、フィッピーは言われた通りに引っ越しました。
@@ -33,6 +41,8 @@ PHPアプリケーションにおいては、その環境にはWebサーバー�
 コンテナは快適です、でも…少しだけ素敵なリビングがあって、それが海の真ん中にぽつんと浮かんでいるような感じでした。
 
 ## page9
+---
+![diagram3](Links/diagram3.png)
 コンテナはアプリとその環境が一緒に動くような独立したコンテキストを提供します。(TODO: コンテキストをもっといい感じに訳したい)
 
 でも、独立したコンテナは、管理される必要があったり、外部の世界に接続される必要があったりします。
@@ -40,27 +50,32 @@ PHPアプリケーションにおいては、その環境にはWebサーバー�
 ファイルシステムの共有、ネットワーク、スケジューリング、負荷分散、そして分散処理はすべてチャレンジなのです。(TODO: distributionは分散・配布どっちだろうか確認)
 
 ## page10
-The whale shrugged his shoulders. 
+---
+![page5](Links/page5.png)
+優しいクジラは首をすくめました。
 
-“Sorry, kid,” he said, and disappeared beneath the ocean’s surface.
+「ごめんね、、、」と彼は言い、海の下に姿を消そうとしたところ、、、
 
-But before Phippy could even begin to despair, a captain appeared on the horizon, piloting a gigantic ship. 
+悲しそうなフィッピーの前に、地平線に巨大な船が現れました。
 
-The ship was made of dozens of rafts all lashed together, but from the outside, it looked like one huge boat.
+この巨大な船は数十本のいかだでまとめられたものでしたが、まるで1台の巨大な船に見えました。
 
-“Hello there, little app! My name is Captain Kube,” said the wise old captain.
+「こんにちは、そこのちいさなアプリさん！私の名前はキャプテン・クーベだよ」と船長は言いました。
 
 ## page11
-“Kubernetes” is the Greek word for a ship’s captain. 
+---
+![diagram4](Links/diagram4.png)
+「Kubernetes」は、ギリシャ語で「船長」という意味のことばです。
 
-The words Cybernetic and Gubernatorial are derived from “Kubernetes”. 
+「Cybernetic」と「Gubernatorial」という言葉は、「Kubernetes」から生まれたものです。
 
-Led by Google, the Kubernetes project focuses on building a robust platform for running thousands of containers in production.
+Googleが率いるKubernetesプロジェクトでは、何千ものコンテナを稼動させるため、堅牢なプラットフォームを構築することに重点を置いています。
 
 ## page12
-“I’m Phippy,” said the little app.
+![page6](Links/page6.png)
+「わたしの名前はフィッピーよ」と彼女は言いました。
 
-“Nice to make your acquaintance,” said the Captain as he gave her a name tag. 
+「はじめまして！」キャプテン・クーベは名札をわたしました。
 
 ## page13
 Kubernetes uses labels as “nametags” to identify things. 
