@@ -39,7 +39,9 @@ But isolated containers often need to be managed and connected to the external w
 Shared file systems, networking, scheduling, load balancing, and distribution are all challenges.
 
 ## page10
-The whale shrugged his shoulders. “Sorry, kid,” he said, and disappeared beneath the ocean’s surface. 
+The whale shrugged his shoulders. 
+
+“Sorry, kid,” he said, and disappeared beneath the ocean’s surface. 
 
 But before Phippy could even begin to despair, a captain appeared on the horizon, piloting a gigantic ship. 
 
