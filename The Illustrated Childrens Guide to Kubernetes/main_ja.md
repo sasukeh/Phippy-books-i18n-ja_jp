@@ -78,21 +78,29 @@ Googleが率いるKubernetesプロジェクトでは、何千ものコンテナ�
 「はじめまして！」キャプテン・クーベは名札をわたしました。
 
 ## page13
-Kubernetes uses labels as “nametags” to identify things. 
+---
+![diagram5](Links/diagram5.png)
 
-Labels are open-ended. 
+Kubernetesではラベルを「名札」としてリソースを識別します。
 
-You can use them to indicate roles, stability, or other important attributes.
+このラベルは自由につけることができます。
+
+あなたはラベルを使用して、そのアプリケーションの役割や安定版かどうかなど、重要な属性を表すことができます。
 
 ## page14
-Captain Kube suggested that the app might like to move her container to a pod on board the ship. 
+---
+![page7](Links/page7.png)
 
-Phippy happily moved her container aboard. It felt like home.
+キャプテン・クーベは、船に乗っているポッドに自分のコンテナを乗せてみては？と提案しました。
+
+フィッピーは彼女のコンテナを乗せました。それは、まるでお家にいるかのように居心地よく感じました。
 
 ## page15
-A pod represents a runnable unit of work. Usually, a single container runs inside of a pod. 
+---
+![diagram6](Links/diagram6.png)
+ポッドはKubernetesで実行可能なコンテナをまとめたものです。通常は、単一のコンテナがポッドで実行されます。
 
-But for cases where a few containers are tightly coupled, you may opt to run more than one container inside of the same Pod. Kubernetes takes on the work of connecting your pod to the network and the rest of the Kubernetes environment.
+しかし、いくつかのコンテナが密接に関連している場合は、同じポッドの内で複数のコンテナを実行できます。Kubernetesは、ポッドがネットワークと通信できるようKubernetesの環境設定を行います。
 
 ## page16
 Phippy had some unusual interests– she was really into genetics and sheep. 
@@ -165,6 +173,5 @@ And so Phippy lived happily ever after.
 ## page25 Blank
 
 ## page26 Blank
-
 
 
