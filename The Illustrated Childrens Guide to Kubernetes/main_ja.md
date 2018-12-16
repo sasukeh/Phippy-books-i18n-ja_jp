@@ -5,13 +5,19 @@
 ## page2 Blank
 
 ## page3
+---
+![page1](Links/page1.png)
 自分の子供たちにソフトウェアエンジニアを説明しようとしている、全ての親たちに捧げます。
 
 ## page4 CNCF Logo
 
 ## page5 Title
+---
+![page2](Links/page2.png)
 
 ## page6
+---
+![page3](Links/page3.png)
 むかしむかし、あるところに、フィッピーというアプリケーションがいました。
 
 彼女はPHPで書かれたシンプルなアプリケーションで、1ページしかありませんでした。
@@ -21,11 +27,15 @@
 ただ、彼女自身と、彼女が家と呼べるような1つのウェブサーバーさえあればよかったのです。
 
 ## page7
+---
+![diagram2](Links/diagram2.png)
 アプリケーションは、動作するために依存する環境を持ちます。
 
 PHPアプリケーションにおいては、その環境にはWebサーバーと、読み取り可能なファイルシステムと、PHPエンジン自体が含まれていることがあるでしょう。
 
 ## page8
+---
+![page4](Links/page4.png)
 ある日、優しいクジラがやってきました。
 
 彼は、フィッピーがもしかしたらコンテナの中に住んだら幸せになれるんじゃないかと提案し、フィッピーは言われた通りに引っ越しました。
@@ -33,6 +43,8 @@ PHPアプリケーションにおいては、その環境にはWebサーバー�
 コンテナは快適です、でも…少しだけ素敵なリビングがあって、それが海の真ん中にぽつんと浮かんでいるような感じでした。
 
 ## page9
+---
+![diagram3](Links/diagram3.png)
 コンテナはアプリとその動作環境が一緒に動作可能な独立したコンテキストを提供します。
 
 でも、独立したコンテナは、管理される必要があったり、外部の世界に接続される必要があったりします。
@@ -40,46 +52,61 @@ PHPアプリケーションにおいては、その環境にはWebサーバー�
 ファイルシステムの共有、ネットワーク、スケジューリング、負荷分散、そして分散配置はすべてチャレンジなのです。
 
 ## page10
-The whale shrugged his shoulders. 
+---
+![page5](Links/page5.png)
+優しいクジラは肩をすくめました。
 
-“Sorry, kid,” he said, and disappeared beneath the ocean’s surface.
+「ごめんね、、、」と彼は言い、海の下に姿を消そうとしたところ、、、
 
-But before Phippy could even begin to despair, a captain appeared on the horizon, piloting a gigantic ship. 
+悲しそうなフィッピーの前に、地平線に巨大な船が現れました。
 
-The ship was made of dozens of rafts all lashed together, but from the outside, it looked like one huge boat.
+この巨大な船は数十本のいかだでまとめられたものでしたが、まるで1台の巨大な船に見えました。
 
-“Hello there, little app! My name is Captain Kube,” said the wise old captain.
+「こんにちは、そこのちいさなアプリさん！私の名前はキャプテン・クーベだよ」と船長は言いました。
 
 ## page11
-“Kubernetes” is the Greek word for a ship’s captain. 
+---
+![diagram4](Links/diagram4.png)
+「Kubernetes」は、ギリシャ語で「船長」という意味のことばです。
 
-The words Cybernetic and Gubernatorial are derived from “Kubernetes”. 
+「Cybernetic」と「Gubernatorial」という言葉は、「Kubernetes」から生まれたものです。
 
-Led by Google, the Kubernetes project focuses on building a robust platform for running thousands of containers in production.
+Googleが率いるKubernetesプロジェクトでは、何千ものコンテナを稼動させるため、堅牢なプラットフォームを構築することに重点を置いています。
 
 ## page12
-“I’m Phippy,” said the little app.
+---
+![page6](Links/page6.png)
+「わたしの名前はフィッピーよ」と彼女は言いました。
 
-“Nice to make your acquaintance,” said the Captain as he gave her a name tag. 
+「はじめまして！」キャプテン・クーベは名札をわたしました。
 
 ## page13
-Kubernetes uses labels as “nametags” to identify things. 
+---
+![diagram5](Links/diagram5.png)
+Kubernetesではラベルを「名札」としてリソースを識別します。
 
-Labels are open-ended. 
 
-You can use them to indicate roles, stability, or other important attributes.
+このラベルは自由につけることができます。
+
+あなたはラベルを使用して、そのアプリケーションの役割や安定版かどうかなど、重要な属性を表すことができます。
 
 ## page14
-Captain Kube suggested that the app might like to move her container to a pod on board the ship. 
+---
+![page7](Links/page7.png)
+キャプテン・クーベは、船に乗っているポッドに自分のコンテナを乗せてみては？と提案しました。
 
-Phippy happily moved her container aboard. It felt like home.
+フィッピーは彼女のコンテナを乗せました。それは、まるでお家にいるかのように居心地よく感じました。
 
 ## page15
-A pod represents a runnable unit of work. Usually, a single container runs inside of a pod. 
+---
+![diagram6](Links/diagram6.png)
+ポッドはKubernetesで実行可能なコンテナをまとめたものです。通常は、単一のコンテナがポッドで実行されます。
 
-But for cases where a few containers are tightly coupled, you may opt to run more than one container inside of the same Pod. Kubernetes takes on the work of connecting your pod to the network and the rest of the Kubernetes environment.
+しかし、いくつかのコンテナが密接に関連している場合は、同じポッドの内で複数のコンテナを実行できます。Kubernetesは、ポッドがネットワークと通信できるようKubernetesの環境設定を行います。
 
 ## page16
+---
+![page8](Links/page8.png)
 Phippy had some unusual interests– she was really into genetics and sheep. 
 
 And so she asked the captain, “What if I want to clone myself… On demand… Any number of times?”
@@ -87,6 +114,8 @@ And so she asked the captain, “What if I want to clone myself… On demand… 
 “That’s easy,” said the captain as he introduced her to ReplicaSets.
 
 ## page17
+---
+![diagram7](Links/diagram7.png)
 ReplicaSets provide a method for managing an arbitrary number of pods. 
 
 A ReplicaSet contains a pod template, which can be replicated any number of times. 
@@ -94,6 +123,8 @@ A ReplicaSet contains a pod template, which can be replicated any number of time
 Through the ReplicaSet, Kubernetes will manage your pods’ lifecycle, including scaling up and down, rolling deployments, and monitoring.
 
 ## page18
+---
+![page9](Links/page9.png)
 For many days and nights, the little app was happy with her pod and happy with her replicas. But only having yourself for company is not all it’s cracked up to be…even if there are N copies of yourself.
 
 Captain Kube smiled benevolently, “I have just the thing.”
@@ -101,11 +132,15 @@ Captain Kube smiled benevolently, “I have just the thing.”
 No sooner had he spoken than a tunnel opened between Phippy’s replication controller and the rest of the ship. With a hearty laugh, Captain Kube said, “Even when your clones come and go, this tunnel will stay here so you can discover other pods, and they can discover you!”
 
 ## page19
+---
+![diagram8](Links/diagram8.png)
 A service tells the rest of the Kubernetes environment (including other pods and ReplicaSets) what services your application provides. 
 
 While pods come and go, the service IP addresses and ports remain the same. Other applications can find your service through Kurbernetes service discovery.
 
 ## page20
+---
+![page10](Links/page10.png)
 Phippy began to explore the rest of the ship. 
 
 It wasn’t long before Phippy met Goldie and they became the best of friends. One day, Goldie did something extraordinary. 
@@ -119,6 +154,8 @@ She gave Phippy a present. Phippy took one look and the saddest of sad tears esc
 But Goldie knew what to do, “Why not put it in a volume?”
 
 ## page21
+---
+![diagram9](Links/diagram9.png)
 A volume represents a location where containers can access and store information. 
 
 The volume appears as part of the local filesystem. 
@@ -126,6 +163,8 @@ The volume appears as part of the local filesystem.
 Volumes may be backed by local storage, Ceph, Gluster, cloud block storage, or a number of other storage backends.
 
 ## page22
+---
+![page11](Links/page11.png)
 Phippy loved life aboard Captain Kube’s ship and she enjoyed the company of her new friends (every replicated pod of Goldie was equally delightful). 
 
 But as she thought back to her days on the scary hosted provider, she began to wonder if perhaps she could also have a little privacy.
@@ -133,11 +172,15 @@ But as she thought back to her days on the scary hosted provider, she began to w
 “It sounds like what you need,” said Captain Kube, “is a namespace.”
 
 ## page23
+---
+![diagram10](Links/diagram10.png)
 A namespace functions as a grouping mechanism inside of Kubernetes. 
 
 Services, pods, ReplicaSets, and volumes can easily cooperate within a namespace, and the namespace provides a degree of isolation from  other parts of the cluster.
 
 ## page24
+---
+![page12](Links/page12.png)
 Life was good aboard Captain Kube’s boat. 
 
 Together with her new friends, Phippy sailed the seas. 
@@ -150,6 +193,5 @@ And so Phippy lived happily ever after.
 ## page25 Blank
 
 ## page26 Blank
-
 
 
