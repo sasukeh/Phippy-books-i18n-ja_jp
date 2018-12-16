@@ -10,9 +10,10 @@
 自分の子供たちにソフトウェアエンジニアを説明しようとしている、全ての親たちに捧げます。
 
 ## page4 CNCF Logo
+![cncf-color.ai](Links/cncf-color.ai.png)
 
 ## page5 Title
----
+---
 ![page2](Links/page2.png)
 
 ## page6
@@ -107,88 +108,98 @@ Kubernetesではラベルを「名札」としてリソースを識別します�
 ## page16
 ---
 ![page8](Links/page8.png)
-Phippy had some unusual interests– she was really into genetics and sheep. 
+フィッピーは珍しいことに興味を持っていました。ー羊と遺伝学についてです。
 
-And so she asked the captain, “What if I want to clone myself… On demand… Any number of times?”
+そして、彼女はキャプテン・クーベに尋ねました。「もし私が自分自身をクローンしたいとすると、、必要なときに、、何度も何度も？」
 
-“That’s easy,” said the captain as he introduced her to ReplicaSets.
+「簡単だよ！」と、キャプテン・クーベは彼女にレプリカセットを教えました。
 
 ## page17
 ---
 ![diagram7](Links/diagram7.png)
-ReplicaSets provide a method for managing an arbitrary number of pods. 
+レプリカセットは、クラスタで動かすポッドの数を管理するものです。
 
-A ReplicaSet contains a pod template, which can be replicated any number of times. 
+レプリカセットにはポッドのテンプレートが含まれています。このテンプレートは何度でも複製できます。
 
-Through the ReplicaSet, Kubernetes will manage your pods’ lifecycle, including scaling up and down, rolling deployments, and monitoring.
+Kubernetesのレプリカセットは、スケールアップやスケールダウン、ローリングアップデート、および監視などのポッドのライフサイクルを管理するものです。
 
 ## page18
 ---
 ![page9](Links/page9.png)
-For many days and nights, the little app was happy with her pod and happy with her replicas. But only having yourself for company is not all it’s cracked up to be…even if there are N copies of yourself.
 
-Captain Kube smiled benevolently, “I have just the thing.”
+日々昼も夜も、小さなアプリは彼女のポッドに満足し、彼女のレプリカに満足していました。
 
-No sooner had he spoken than a tunnel opened between Phippy’s replication controller and the rest of the ship. With a hearty laugh, Captain Kube said, “Even when your clones come and go, this tunnel will stay here so you can discover other pods, and they can discover you!”
+しかし、自分で持っているだけでは、たとえ自分自身のコピーがいくつあっても、素晴らしいわけではありません。
+
+キャプテン・クーベは優しく微笑みました。「うってつけのものがあるよ」
+
+彼は話し始めるやいなや、フィッピーのレプリケーションコントローラと残りの船との間に、トンネルがつながっていることを伝えました。
+
+キャプテン・クーベは豪快に笑いながら 「たとえあなたのクローンが入れ替わったとしても、トンネルはとどまるので、代わりの他のポッドを見つけることができるよ！」
+
 
 ## page19
 ---
 ![diagram8](Links/diagram8.png)
-A service tells the rest of the Kubernetes environment (including other pods and ReplicaSets) what services your application provides. 
+サービスは、Kubernetesのリソース（他のポッドやレプリカセット）が提供するサービスを見つけだすためのしくみです。
 
-While pods come and go, the service IP addresses and ports remain the same. Other applications can find your service through Kurbernetes service discovery.
+ポッドが入れ替わっても、サービスのIPアドレスとポートは同じままです。他のアプリケーションでは、Kurbernetesのサービスディスカバリーを通じてサービスを見つけることができます。
 
 ## page20
 ---
 ![page10](Links/page10.png)
-Phippy began to explore the rest of the ship. 
 
-It wasn’t long before Phippy met Goldie and they became the best of friends. One day, Goldie did something extraordinary. 
+フィッピーは船の残りの部分を探し始めました。
 
-She gave Phippy a present. Phippy took one look and the saddest of sad tears escaped her eye.
+フィッピーがゴールディと出会い、彼女らが最高の友達になったのはずっと昔のことではありません。ある日、ゴールディは特別なことをしました。 
 
-“Why are you so sad?” asked Goldie.
+彼女はフィッピーにプレゼントをしました。フィッピーはすぐに悲しくなり彼女の眼は涙で溢れました。
 
-“I love the present, but I have nowhere to put it!” sniffled Phippy.
+「なぜそんなに悲しいの？」ゴールディは尋ねました。
 
-But Goldie knew what to do, “Why not put it in a volume?”
+「このプレゼントはとても嬉しいわ。でも、私はどこにもそれを置いておくことができないの」とフィッピーはすすり泣きました。
+
+しかし、ゴールディーは何をすべきかを知っていました。
+「フィッピー、なぜそれをボリュームに入れないの？」
 
 ## page21
 ---
 ![diagram9](Links/diagram9.png)
-A volume represents a location where containers can access and store information. 
+ボリュームとは、コンテナが永続データを格納しアクセスできる場所のことです。
 
-The volume appears as part of the local filesystem. 
+ボリュームは、ローカルファイルシステムの一部として表示されます。
 
-Volumes may be backed by local storage, Ceph, Gluster, cloud block storage, or a number of other storage backends.
+ボリュームは、ローカルストレージだけでなく、Ceph、Gluster、クラウドストレージ、または他の多くのストレージバックエンドによってバックアップされます。
 
 ## page22
 ---
 ![page11](Links/page11.png)
-Phippy loved life aboard Captain Kube’s ship and she enjoyed the company of her new friends (every replicated pod of Goldie was equally delightful). 
+フィッピーはキャプテン・クーベの船での生活をとても気に入り、彼女は新しい友達とも楽しみました。（もちろんゴールディのすべてのポッドのレプリカも同じように）
 
-But as she thought back to her days on the scary hosted provider, she began to wonder if perhaps she could also have a little privacy.
+しかし、彼女はふと怖い怖いホスティングプロバイダでの日々のことを思い出しました。彼女は、自分のプライバシーを守ることができるのかしらと疑問に思い始めました。
 
-“It sounds like what you need,” said Captain Kube, “is a namespace.”
+
+「それは必要なものだね」とキャプテン・クーベは言いました。
+「ネームスペースだ」
 
 ## page23
 ---
 ![diagram10](Links/diagram10.png)
-A namespace functions as a grouping mechanism inside of Kubernetes. 
+ネームスペースは、Kubernetes内のリソースを論理的にグループするしくみです。
 
-Services, pods, ReplicaSets, and volumes can easily cooperate within a namespace, and the namespace provides a degree of isolation from  other parts of the cluster.
+サービス、ポッド、レプリカセット、ボリュームは同一ネームスペース内で互いに簡単にアクセスできます。つまり、ネームスペースはクラスタの中でリソースを分離するものです。
 
 ## page24
 ---
 ![page12](Links/page12.png)
-Life was good aboard Captain Kube’s boat. 
 
-Together with her new friends, Phippy sailed the seas. 
+キャプテン・クーベの船に乗ってほんとうに良かった。
 
-She had many grand adventures, but most importantly, Phippy had found her home.
+彼女の新しい友達たちと共に、フィッピーは海を航海しました。
 
-And so Phippy lived happily ever after.  
-その後、Phippyは幸せに暮らしましたとさ。
+彼女はたくさんの大きな冒険をしました。この物語で最も大事なことは、フィッピーは安心できる自分のお家を見つけたことでしょう。
+
+その後、フィッピーは幸せに暮らしましたとさ。
 
 ## page25 Blank
 
