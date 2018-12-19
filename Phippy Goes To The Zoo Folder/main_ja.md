@@ -5,50 +5,50 @@
 ## page2 CNCF Logo
 
 ## page3
-“I’m bored Aunt Phippy,” Zee slouched further down on the couch. 
+“フィッピーおばさん、ぼく退屈だよ” ジーはソファに深く倒れかかりました。
 
-“What are we going to do today?”
+“今日は何をするつもりなの？”
 
-“Why not go see the animals?” said Phippy with a smile. 
+“動物を見に行こうか？” フィッピーは笑顔で答えました。
 
-“We’ll go to the zoo!”
+“動物園に行こう！”
 
-"Yeah!" Zee let out a whoop and ran to find some shoes.
+"うん！" ジーは大声で答え、靴を探しに走りました。
 
 ## page4
-The first animals they came upon were the size of squirrels. 
+最初に彼らが出会った動物は、リスほどの大きさでした。
 
-Furry and blue, each little animal carried a tiny box as they unceasingly zipped back and forth. 
+毛むくじゃらで青い小さな動物たちは、絶え間なく前後に走るようにして小さな箱を運んでいます。
 
-“Those,” said Phippy, “are Pods. All day and all night, they run back and forth carrying their little containers.”
-“Is that all they do, Aunt Phippy?”
+"あれはポッドだよ！一日中一晩中、彼らは小さなコンテナを持って縦横無尽に走ってるの。"　とフィッピーは言いました。
+"フィッピーおばさん、みんなそうしてるの？"
 
-“Yup, Zee. For their entire lives, that’s all the Pods do. They run.”
+“うん、ジー。全てのポッドが一生そうしてるのよ。彼らはずっと走ってるの。”
 
 ## page5
-In Kubernetes, Pods are responsible for running your containers.
+Kubernetesでは、ポッドは自身のコンテナが起動していることに責任を持ちます。
 
-Every Pod holds at least one container, and controls the execution of that container. 
+全てのポッドは1つ以上のコンテナをもち、そのコンテナの実行を制御します。
 
-When the containers exit, the Pod dies too.
+コンテナが停止すると、Podも停止します。
 
 ## page6
-As Phippy and Zee walked on, they saw a large glass enclosure. 
+フィッピーとジーが歩いていると、彼らは大きなガラスの檻を見つけました。
 
-Pressed against the window was a line of happy little meerkat faces. 
+窓に押し付けられたのは、一列に並んだミーアキャットの幸せそうな顔でした。
 
-“Those are the ReplicaSets,” said Phippy.  
+“彼らはレプリカセットよ” フィッピーは言いました。
 
-As Zee watched, the face on the right grinned widely, and tipped itself off the ledge. 
+ジーがみていると、右の彼がニコッと笑って岩棚から離れていきました。
 
-In unison, the others hopped over to fill the space, and then an identical meerkat scurried up on the left side.  
+みんな揃って、残った彼らはスペースを埋めるためにぴょんと飛び、同じ種類のミーアキャットが左側に駆け上がりました。
 
-“Every time one little replica falls, another one hops right up,” explained Phippy. 
+"小さなレプリカが落ちるたびに、もう一人が登ってくるの" とフィッピーは説明しました。
 
 ## page7
-A ReplicaSet ensures that a set of identically configured Pods are running at the desired replica count. 
+レプリカセットは、同様の設定が行われたポッドが要求されたレプリカ数で起動していることを保証します。
 
-If a Pod drops off, the ReplicaSet brings a new one online as a replacement.
+もしポッドが停止した場合、レプリカセットは新しいポッドを交換用としてオンラインにします。
 
 ## page8
 Walking further, Zee pointed out a clump of burrows and warrens. 
