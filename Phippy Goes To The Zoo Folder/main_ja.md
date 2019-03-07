@@ -171,9 +171,9 @@ As she spoke, another bolted upright, grabbed a broom, swept the entire enclosur
 ## page17
 ![spread8b](Links/spread8b.png)
 
-CronJobs provide a method for scheduling the execution of Pods. 
+CronJobs（クロンジョブ） は、Podの実行スケジューリングのためのメソッドを提供します。
 
-They are excellent for running periodic tasks like backups, reports, and automated tests.
+CronJobsは、バックアップ、レポート、自動化されたテストのような定期的なタスクの実行のために優れています。
 
 ## page18
 ![spread9](Links/spread9.png)
