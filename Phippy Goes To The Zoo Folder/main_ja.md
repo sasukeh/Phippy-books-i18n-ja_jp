@@ -64,24 +64,24 @@ Kubernetesでは、ポッドは自身のコンテナが起動していること�
 ## page8
 ![spread4](Links/spread4.png)
 
-Walking further, Zee pointed out a clump of burrows and warrens. 
+さらに歩き進んでいくと、ジーは巣穴のかたまりをみつけて指さしました。
 
-While there were plenty of signs that the area was inhabited, neither Phippy nor Zee could see a single movement. 
+そこに住んでいたという証拠はいくつもあったけど、フィッピーもジーも動きを確認できませんでした。
 
-“The Secrets are in here,” said Phippy. “but you can’t see them without these decoder glasses.” 
+“秘密はここにあるわよ” フィッピーは言いました。“でも、暗号を解読するメガネがないとみることができないの”
 
-Zee took the pair of glasses Phippy offered, slid them on, and blushed.
+ジーはフィッピーが持っていた2つのメガネをつけて、それらをスライドさせて顔を赤くしました！
 
-“Oh, my. I think I’m ready to go on now, Aunt Phippy.” 
+“あぁ分かった！ぼくは準備オッケーだよ。フィッピーおばさん”
 
-Zee handed back the glasses, and onward they went. 
+ジーはメガネを手渡して、去っていきました。
 
 ## page9
 ![spread4b](Links/spread4b.png)
 
-Secrets are used to store non-public information, such as tokens, certificates, or passwords. 
+Secretsは、トークン、証明書、パスワードなどの非公開情報を格納するために使用されます。
 
-Secrets can be attached to Pods at runtime so that sensitive configuration data can be stored securely in the cluster.
+Secretsは秘匿性の高い設定情報をPodに対して実行時にアタッチできます。これらの設定データはクラスタ内で安全に保存できます。
 
 ## page10
 ![spread5](Links/spread5.png)
