@@ -6,9 +6,9 @@
 ## page2 CNCF Logo
 ![cncf-color.ai](Links/cncf-color.ai.png)
 
-## page3
+## page3f
 ![spread1](Links/spread1.png)
-“フィッピーおばさん、ぼく退屈だよ” ジーはソファに深く倒れかかりました。
+“フィッピーおばさん、私、退屈だよ” ジーはソファに深く倒れかかりました。
 
 “今日は何をするつもりなの？”
 
@@ -86,87 +86,88 @@ Secretsは秘匿性の高い設定情報をPodに対して実行時にアタッ�
 ## page10
 ![spread5](Links/spread5.png)
 
-A group of iguanas gathered near a large slingshot along the shore of a pond. 
+イグアナのグループが池のふちに大きなパチンコの近くに集まっていました。
 
-An island stood in the center of the water.
+一匹のイグアナは水の真ん中に立っていました。
 
-An iguana threw herself into the slingshot and the other iguanas launched the little beast toward the island.    
+一匹のイグアナは、パチンコの中に自身を投げ入れ、他のイグアナは、島へ向かって小さな獣の準備をしていました。
 
-“The Deployments release a group onto the island. Right now, they’re trying to get three out there.” said Phippy.
+"このデプロイメントは、島の上にグループを到達させるのよ。今、彼らは３つをそこへ到達させようとしてる"とフィッピーが言いました。
 
-At that moment another iguana rocketed into the air but missed the island with a colossal splash in the pond.  
+その瞬間、他のイグアナが空中へ発射されましたが、大きな水しぶきをあげ、島へ到達するのに失敗しました。
 
-Phippy said, “If they miss, they just keep trying until they get as many as they need.”
+"もし失敗しても、イグアナ達は、彼らが必要な数だけ、チャレンジし続けるよ"とフィッピーが言いました。
 
 ## page11
 ![spread5b](Links/spread5b.png)
 
-A Deployment is a higher-order abstraction that controls deploying and maintaining a set of Pods. 
+デプロイメントは、ポッドのセットをデプロイしたりメンテナンスしたりするための上位抽象化です。
 
-Behind the scenes, it uses a ReplicaSet to keep the Pods running, but it offers sophisticated logic for deploying, updating, and scaling a set of Pods within a cluster.
+そのシーンの背景は、ポッドの稼働状態を維持するためにレプリカセットを使いますが、デプロイメントは、クラスタを含むポッドのセットをデプロイ、アップデート、スケールするための洗練されたロジックです。
 
 ## page12
 ![spread6](Links/spread6.png)
 
-Several stone pillars arose from a grassy knoll and at the top of each sat a vulture. 
+いくつかの石柱が草が茂った丘にたっており、ハゲタカがそれぞれの上に座っています。
 
-As Zee and Phippy watched, one vulture spread its wings and flapped off into the distance. 
+ジーとフィッピーが見ている時、ハゲタカは羽を広げて遠くに羽ばたきました。
 
-No sooner had one left than another took its place. Zee asked, “What are they doing?” 
+すぐに他のハゲタカが空いた石柱に乗りました。ジーは、"ハゲタカは何をしているの？"と聞きました。
 
-“Those are DaemonSets,” said Phippy, “They make sure to occupy every pillar, rain or shine, day or night.” 
+”それはデーモンセットだよ。彼らは、昼夜、晴雨、昼か夜かに問わず、石柱を陣取るんだ”とフィッピーは言いました。
 
-“I bet that if we added a new pillar, a new bird would land on it faster than you could say ‘cube cuddle,’” chuckled Phippy. 
+"私が新しい石柱を追加すると、新しい鳥が'キューブに寄り添うよ！'というより早く着陸するよ"とフィッピーは笑いました。
 
 ## page13
 ![spread6b](Links/spread6b.png)
 
-DaemonSets provide a way to ensure that a copy of a Pod is running on every node in the cluster. 
+デーモンセットは、ポッドのレプリカがクラスタ内のすべてのノードで実行されていることを確認する方法を提供します。
 
-As a cluster grows and shrinks, the DaemonSet spreads these specially labeled Pods across all of the nodes.
+クラスターが大きくなったり、小さくなったりするとデーモンセットは、特別にラベル付されたポッドをそれにあわせて配置します。
 
 ## page14
 ![spread7](Links/spread7.png)
 
-As they walked on, they saw an aquarium with an enormous reef. 
+歩いていくと、彼らは巨大なサンゴ礁がある水槽を見つけました。
 
-Edge-to-edge, it appeared that the rock would keep anything from passing from one side to the other. 
+端から端に、片側からもう一方に抜けるのに岩が邪魔しているように見えました。
 
-Zee watched as hundreds of tiny fish made a dash for the center of the face of the rock. 
+ジーは、何百もの小さな魚が岩の表面の中心に向かってすばやく泳いでいくのを見ていました。
 
-At full speed, the fish swam into a hole bored into the rock face and momentarily vanished from sight.  
+全速力で、魚は岩の表面にあけられた穴に泳いでいき、一瞬で見えなくなりました。
 
-Zee let out a gasp. 
+ジーは、息を弾ませました。
 
-Multicolored flashes erupted from the opposite side of the coral. 
+色とりどりのフラッシュがサンゴの反対側から出てきました。
 
-Instead of coming out of a single hole, the fish seemed to materialize from tiny fissures all over the far side of the rock.  
+単一の穴から出るのではなく、魚は、岩の反対側の小さな割れ目から出てきているようでした。
 
-“Ingresses are beautiful,” said a dreamy eyed Phippy.  
+"イングレスは美しい！"と夢のような目をしてフィッピーは言いました。
 
-Enchanted, Zee muttered, “Uh-huh.”
+魅了されて、"わー"とジーはつぶやきました。
 
 ## page15
 ![spread7b](Links/spread7b.png)
 
-Ingresses provide a way to declare that traffic ought to be channeled from the outside of the cluster into destination points within the cluster. 
+Ingresses(イングレス)は、トラフィックがクラスタの外部からクラスタ内の宛先に送信すべきであることを宣言する方法を提供します。
 
-One single external Ingress point can accept traffic destined to many different internal services.
+一つの単一の外部Ingress(イングレス)ポイントは、様々な内部サービス宛てのトラフィックを受け入れる事ができます。
 
 ## page16
 ![spread8](Links/spread8.png)
 
-Zee pointed to the raccoons sprawled motionless in the next enclosure. 
+ジーは、次の檻の中で動かずに広がっているアライグマを指して言いました。
 
-“What’s wrong with them?” 
+"彼らに何があったの？"
 
-Suddenly, one sprung to its feet, did jumping jacks, then settled back down for another nap. 
+突然、その足で跳ね、ジャンピング・ジャックをした後、また昼寝をしだしました。
 
-“Those are CronJobs,” said Phippy. 
+"これがクロンジョブだよ。彼らはほとんど寝てるだけだけど、定期的に、特定の仕事をするために行動を始めるよ"とフィッピーが言いました。
 
-“Mostly, they just sleep. But periodically, they spring into action to do a specific job.” 
+彼女が話している間に別のアライグマが直立してほうきを掴み、檻の中全体を掃除し、再び眠りに付きました。
 
-As she spoke, another bolted upright, grabbed a broom, swept the entire enclosure, and then dropped off to sleep again. “Aunt Phippy, can I bring that one home to clean my room?” Phippy laughed as they walked on.
+"フィッピーおばさん、私の部屋を掃除するために、このアライグマを持って帰ることはできる？"
+とジーは良い、フィッピーはあるきながら笑っていました。
 
 ## page17
 ![spread8b](Links/spread8b.png)
@@ -178,26 +179,23 @@ CronJobsは、バックアップ、レポート、自動化されたテストの
 ## page18
 ![spread9](Links/spread9.png)
 
-Zee halted abruptly. In the distance, a black-railed fence arose. 
+ジーは突然、黒い手すりの柵に近寄り立ち止まりました。
 
-The arches above the pen were marked C-R-D. Between the bars, Zee could make out some peculiar critters.
+標識にC-R-Dと書かれていました。バーの間に、ジーはいくつか特徴的な生き物を目にしました。
 
-A giraffe with a hippopotamus head. A snake with raccoon ears. A lion with a beaver’s tail.
+カバの頭を持つキリン。アライグマの耳を持つヘビ。ビーバーのしっぽを持つライオン。角のないユニコーン。ジーは、その場所が好きだと思いませんでした。
 
-A unicorn with no horn. Zee wasn’t sure she liked the looks of that place. 
+フィッピーは心配し、"ああ！お昼ご飯の時間だわ、帰宅した方が良い！"
 
-“Oh,” said Phippy, a look of concern on her face, “Uh… look! It’s lunch time! We’d better head home.” 
-
-With a look of mild relief, Zee complied. 
-
-“Can we stop at Captain Kube’s Shake Shop on the way out?”
+安心した表情で、ジーは尋ねました。
+"キャプテンクーべのシェイクショップによって帰れる？"
 
 ## page19
 ![spread9b](Links/spread9b.png)
 
-CustomResourceDefinitions, or CRDs, provide an extension mechanism that cluster operators and developers can use to create their own resource types.
+カスタムリソース定義、もしくは、CRDsは、クラスタ操作の拡張機能を提供し、開発者は自身のリソースタイプを作るために使います。
 
 ## page20
 ![spread10](Links/spread10.png)
 
-
+おしまい
